@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Navidad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">🎄 Navidad</h1>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#tradiciones" class="nav-link">Tradiciones</a></li>
+                <li class="nav-item"><a href="#galeria" class="nav-link">Galería</a></li>
+                <li class="nav-item"><a href="#regalos" class="nav-link">Lista de Regalos</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">¡Feliz Navidad!</h1>
+            <p class="hero-subtitle">Que esta temporada esté llena de alegría, paz y amor</p>
+            <button class="cta-button">Descubre la Magia</button>
+        </div>
+        <div class="snowflakes" aria-hidden="true">
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+            <div class="snowflake">❄</div>
+            <div class="snowflake">❅</div>
+            <div class="snowflake">❆</div>
+            <div class="snowflake">❄</div>
+        </div>
+    </section>
+
+    <!-- Sección Tradiciones -->
+    <section id="tradiciones" class="traditions">
+        <div class="container">
+            <h2 class="section-title">Tradiciones Navideñas</h2>
+            <div class="traditions-grid">
+                <div class="tradition-card">
+                    <div class="tradition-icon">🎁</div>
+                    <h3>Intercambio de Regalos</h3>
+                    <p>Una tradición que simboliza los regalos que los Reyes Magos llevaron al niño Jesús.</p>
+                </div>
+                <div class="tradition-card">
+                    <div class="tradition-icon">🎄</div>
+                    <h3>Árbol de Navidad</h3>
+                    <p>Representa la vida eterna y se decora con luces, esferas y otros adornos.</p>
+                </div>
+                <div class="tradition-card">
+                    <div class="tradition-icon">🍪</div>
+                    <h3>Galletas para Santa</h3>
+                    <p>Los niños dejan galletas y leche para Santa Claus en la víspera de Navidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Galería Navideña</h2>
+            <div class="gallery-grid">
+                <!-- Aquí puedes agregar tus imágenes -->
+                <div class="gallery-item">
+                    <div class="image-placeholder">Imagen 1</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">Imagen 2</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">Imagen 3</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="image-placeholder">Imagen 4</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Lista de Regalos -->
+    <section id="regalos" class="gifts">
+        <div class="container">
+            <h2 class="section-title">Mi Lista de Regalos</h2>
+            <div class="gift-form">
+                <input type="text" id="gift-input" placeholder="¿Qué te gustaría recibir?" class="gift-input">
+                <button id="add-gift" class="gift-button">Agregar</button>
+            </div>
+            <ul id="gift-list" class="gift-list">
+                <!-- Los regalos se agregarán aquí dinámicamente -->
+            </ul>
+            <div class="santa-message">
+                <p id="santa-text">¡Santa está revisando su lista! 🎅</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2023 Feliz Navidad - Diseñado con ❤️ y ☕</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
